@@ -1,0 +1,53 @@
+/* Element selector*/
+
+html, body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border-bottom: solid #66d5e2;
+    padding: 10px 20px;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+/*ID selector*/
+#footer-p {
+    color: yellow;
+    font-size: 40px;
+}
+
+
+/*Class selector*/
+.title {
+    font-size: 30px;
+    outline: 20px;
+    color: forestgreen;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+.nav, .main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    row-gap: 250px;
+}
+
+.grid-cell {
+    height: 200px;
+    background-color: blue;
+}
+
